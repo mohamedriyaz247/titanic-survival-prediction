@@ -1,0 +1,19 @@
+Titanic Survival Prediction - GitHub Project
+
+Files:
+- Titanic_Survival_GitHub.ipynb : complete executed notebook
+- Titanic-Dataset.csv          : dataset
+- README.md                    : GitHub documentation
+- requirements.txt             : Python dependencies
+- .gitignore                   : Git ignore rules
+
+Validated test split:
+- 80/20 stratified split
+- random_state=42
+
+Current notebook results:
+- Logistic Regression: Accuracy 0.8436, ROC-AUC 0.8792
+- Gradient Boosting: Accuracy 0.8156, ROC-AUC 0.8501
+- Random Forest: Accuracy 0.8212, ROC-AUC 0.8431
+
+These metrics are specific to the notebook's test split.
